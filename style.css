@@ -1,0 +1,153 @@
+/* navber */
+.navbar .navbar-brand {
+	text-transform: uppercase;
+}
+.navbar .navbar-brand {
+	font-family: viga;
+	font-weight: bold;
+}
+.navbar .nav-link {
+	font-family: viga;
+	margin: 0 5px;
+	font-weight: 200;
+}
+.navbar .kotak {
+	padding-bottom: 0px;
+}
+
+/* jumbotron */
+.jumbotron {
+	background-image: url("img/dave-hoefler.jpg");
+	background-size: 1400px 800px;
+	background-attachment: fixed;
+}
+.jumbotron img {
+	height: 300px;
+	width: 200px;
+	margin-top: 35px;
+	margin-bottom: 5px;
+	border-radius: 100px;
+	box-shadow: 1px 1px 10px lightslategrey;
+}
+.jumbotron h1 {
+	color: white;
+	text-shadow: 1px 3px 10px crimson;
+}
+.jumbotron p {
+	color: white;
+}
+
+/* sambutan */
+.sambutan {
+	background-color: #fef;
+	margin-top: -35px;
+	text-transform: uppercase;
+}
+.sambutan span {
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #999;
+}
+.sambutan .img-thumbnail {
+	margin-top: 20px;
+}
+/*ucapan */
+.ucapan {
+	padding-top: 200px;
+	background-color: #fea;
+}
+.ucapan img {
+	height: 350px;
+	weight: 350px;
+	border-radius: 20px;
+}
+.ucapan h1 {
+	font-size: 52px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: grey;
+}
+.ucapan span {
+	font-weight: 500;
+}
+.ucapan p {
+	color: #acacac;
+	margin-top: 50px;
+}
+.ucapan .penulis {
+	color: #ccc;
+	margin-top: -10px;
+}
+
+/* utility */
+.container {
+	padding-bottom: 170px;
+}
+.judul {
+	font-family: roboto;
+	margin: 120px 0 50px;
+	font-weight: 200px;
+	font-size: 50px;
+	text-shadow: 1px 1px 3px black;
+	color: #fff
+}
+/* harapan */
+.harapan h3 {
+	margin-top: 150px;
+	font-size: 30px;
+	font-weight: 200;
+}
+.harapan .figure-img {
+	width: 62px;
+	height: 62px;
+	margin: 40px 0px 20px;
+}
+.harapan .figure-caption {
+	font-weight: bold;
+	color: #acacac;
+}
+
+/* beruntung */
+.beruntung {
+	background-color: #eee;
+}
+.beruntung h1 {
+	font-weight: 200;
+	margin: 100px 0px 50px;
+}
+.beruntung .card {
+	margin: 30px 0px;
+}
+.beruntung .card h5, .beruntung .card h5 {
+	font-weight: 500;
+}
+.beruntung .card p, .beruntung .card li {
+	color: #acacac;
+	font-weight: 200;
+}
+.beruntung .baru .card-title, .beruntung .card .card-text {
+	color: white;
+}
+
+/* footer */
+footer {
+	height: 170px;
+	right: 0;
+	left: 0;
+	background-color: gray;
+}
+footer p {
+	margin: auto 0px;
+}
+
+
+/* DESKTOP */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.navbar .nav-link {
+		text-transform: uppercase;
+	}
+	.sambutan .gallery .img-thumbnail::after {
+
+
+	}
+}
