@@ -61,22 +61,25 @@
 	height: 350px;
 	weight: 350px;
 	border-radius: 20px;
+	box-shadow: 0px 0px 3px darkmagenta;
 }
 .ucapan h1 {
 	font-size: 52px;
 	font-weight: 200;
 	text-transform: uppercase;
-	color: grey;
+	color: white;
+	text-shadow: 3px 2px 3px midnightblue;
 }
 .ucapan span {
 	font-weight: 500;
+	text-shadow: 3px 2px 3px tomato;
 }
 .ucapan p {
-	color: #acacac;
+	color: slategrey;
 	margin-top: 50px;
 }
 .ucapan .penulis {
-	color: #ccc;
+	color: slategrey;
 	margin-top: -10px;
 }
 
@@ -120,7 +123,7 @@
 
 /* footer */
 footer {
-	height: 170px;
+	height: 100px;
 	right: 0;
 	left: 0;
 	background-color: gray;
@@ -156,9 +159,5 @@ footer p {
 	}
 	.sambutan span {
 		text-shadow: 2px 2px 3px indigo;
-	}
-	.sambutan .gallery .img-thumbnail::after {
-
-
 	}
 }
