@@ -20,6 +20,7 @@
 	background-image: url("img/dave-hoefler.jpg");
 	background-size: 1400px 800px;
 	background-attachment: fixed;
+	margin-bottom: -30px;
 }
 .jumbotron img {
 	height: 300px;
@@ -40,7 +41,7 @@
 /* sambutan */
 .sambutan {
 	background-color: #fef;
-	margin-top: -35px;
+	margin-top: -45px;
 	text-transform: uppercase;
 }
 .sambutan span {
@@ -50,6 +51,7 @@
 .sambutan .img-thumbnail {
 	margin-top: 20px;
 }
+
 /*ucapan */
 .ucapan {
 	padding-top: 200px;
@@ -78,18 +80,6 @@
 	margin-top: -10px;
 }
 
-/* utility */
-.container {
-	padding-bottom: 170px;
-}
-.judul {
-	font-family: roboto;
-	margin: 120px 0 50px;
-	font-weight: 200px;
-	font-size: 50px;
-	text-shadow: 1px 1px 3px black;
-	color: #fff
-}
 /* harapan */
 .harapan h3 {
 	margin-top: 150px;
@@ -139,12 +129,33 @@ footer p {
 	margin: auto 0px;
 }
 
+/* utility */
+.container {
+	padding-bottom: 170px;
+}
+.judul {
+	font-family: roboto;
+	margin: 120px 0 50px;
+	font-weight: 200px;
+	font-size: 50px;
+	text-shadow: 1px 1px 3px black;
+	color: #fff;
+}
 
 /* DESKTOP */
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.navbar .nav-link {
 		text-transform: uppercase;
+	}
+	.sambutan {
+		background-image: linear-gradient(to bottom, indianred, skyblue);
+	}
+	.sambutan h1 {
+		text-shadow: 1px 1px 3px white;
+	}
+	.sambutan span {
+		text-shadow: 2px 2px 3px indigo;
 	}
 	.sambutan .gallery .img-thumbnail::after {
 
