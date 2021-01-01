@@ -123,13 +123,13 @@
 
 /* footer */
 footer {
-	height: 100px;
+	height: 150px;
 	right: 0;
 	left: 0;
 	background-color: gray;
 }
 footer p {
-	margin: auto 0px;
+	margin: 5px 0px;
 }
 
 /* utility */
