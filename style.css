@@ -67,10 +67,10 @@
 	height: 350px;
 	weight: 350px;
 	border-radius: 20px;
-	box-shadow: 0px 0px 3px darkmagenta;
+	box-shadow: 0px 0px 2px darkmagenta;
 }
 .ucapan h1 {
-	font-size: 52px;
+	font-size: 42px;
 	font-weight: 200;
 	text-transform: uppercase;
 	color: white;
@@ -82,11 +82,13 @@
 }
 .ucapan p {
 	color: slategrey;
-	margin-top: 50px;
+	margin: 50px 0px 60px;
 }
 .ucapan .penulis {
-	color: slategrey;
+	color: white;
 	margin-top: -10px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
 
@@ -96,19 +98,24 @@
 	background-color: mediumblue;
 }
 .harapan h3 {
-	margin-top: 150px;
-	font-size: 30px;
-	font-weight: 200;
+	margin-top: 175px;
+	font-size: 24px;
+	font-weight: 500;
 	color: white;
-}
-.harapan .non-aktif {
-
+	font-style: italic;
 }
 .harapan .figure-img {
 	width: 62px;
 	height: 62px;
-	margin: 40px 0px 20px;
+	opacity: .7;
+	margin: 60px 25px 20px;
 	box-shadow: 0px 0px 3px #633;
+}
+.harapan .figure-active {
+	width: 86px;
+	height: 86px;
+	opacity: 1;
+	margin-top: 50px;
 }
 .harapan h5 {
 	color: white;
@@ -116,8 +123,10 @@
 }
 .harapan .figure-caption {
 	font-weight: bold;
+	font-size: 18px;
 	color: #633;
-	text-shadow: 1px 1px 3px white;
+	text-shadow: 0px 1px 2px white;
+	margin-top: -5px;
 }
 
 
@@ -163,10 +172,11 @@
 
 /* footer */
 footer {
-	height: 150px;
+	min-height: 150px;
 	right: 0;
 	left: 0;
 	background-color: mediumblue;
+	padding: 30px 0px;
 }
 footer p {
 	margin: 5px 0px;
@@ -176,7 +186,7 @@ footer p {
 
 
 /* utility */
-.container {
+section {
 	padding-bottom: 170px;
 }
 .judul {
@@ -209,5 +219,8 @@ footer p {
 	}
 	.ucapan {
 		background-image: linear-gradient(to bottom, skyblue, #fea, #fea);
+	}
+	.harapan h3 {
+		font-size: 34px;
 	}
 }
