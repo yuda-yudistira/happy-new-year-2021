@@ -38,6 +38,8 @@
 	color: white;
 }
 
+
+
 /* sambutan */
 .sambutan {
 	background-color: #fef;
@@ -51,6 +53,8 @@
 .sambutan .img-thumbnail {
 	margin-top: 20px;
 }
+
+
 
 /*ucapan */
 .ucapan {
@@ -84,20 +88,31 @@
 }
 
 /* harapan */
+.harapan {
+	background-color: mediumblue;
+}
 .harapan h3 {
 	margin-top: 150px;
 	font-size: 30px;
 	font-weight: 200;
+	color: white;
 }
 .harapan .figure-img {
 	width: 62px;
 	height: 62px;
 	margin: 40px 0px 20px;
 }
+.harapan h5 {
+	color: white;
+	text-shadow: 1px 1px 3px yellow;
+}
 .harapan .figure-caption {
 	font-weight: bold;
-	color: #acacac;
+	color: #633;
+	text-shadow: 1px 1px 3px white;
 }
+
+
 
 /* beruntung */
 .beruntung {
@@ -106,30 +121,48 @@
 .beruntung h1 {
 	font-weight: 200;
 	margin: 100px 0px 50px;
+	text-shadow: 1px 1px 3px darkblue;
+	text-transform: uppercase;
 }
 .beruntung .card {
 	margin: 30px 0px;
 }
-.beruntung .card h5, .beruntung .card h5 {
+.beruntung .card h5 {
 	font-weight: 500;
+	color: darkblue;
+	text-shadow: 1px 1px 1px white;
+	text-transform: uppercase;
+}
+.beruntung h3 {
+	color: darkblue;
+	text-transform: uppercase;
 }
 .beruntung .card p, .beruntung .card li {
-	color: #acacac;
+	color: #555;
 	font-weight: 200;
 }
 .beruntung .baru .card-title, .beruntung .card .card-text {
 	color: white;
 }
+.beruntung .btn {
+	color: white;
+}
+.beruntung label {
+	color: darkblue;
+}
+
+
 
 /* footer */
 footer {
 	height: 150px;
 	right: 0;
 	left: 0;
-	background-color: gray;
+	background-color: mediumblue;
 }
 footer p {
 	margin: 5px 0px;
+	color: white;
 }
 
 /* utility */
@@ -145,6 +178,10 @@ footer p {
 	color: #fff;
 }
 
+
+
+
+
 /* DESKTOP */
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -159,5 +196,8 @@ footer p {
 	}
 	.sambutan span {
 		text-shadow: 2px 2px 3px indigo;
+	}
+	.ucapan {
+		background-image: linear-gradient(to bottom, skyblue, #fea, #fea);
 	}
 }
