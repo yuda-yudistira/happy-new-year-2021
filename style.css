@@ -102,13 +102,13 @@
 	color: white;
 }
 .harapan .non-aktif {
-	
+
 }
 .harapan .figure-img {
 	width: 62px;
 	height: 62px;
 	margin: 40px 0px 20px;
-	box-shadow: 0px 0px 5px #633;
+	box-shadow: 0px 0px 3px #633;
 }
 .harapan h5 {
 	color: white;
