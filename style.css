@@ -23,6 +23,8 @@
 	background-size: 1400px 800px;
 	background-attachment: fixed;
 	margin-bottom: -30px;
+	overflow: hidden;
+	height: 650px;
 }
 .jumbotron img {
 	height: 300px;
@@ -30,7 +32,7 @@
 	margin-top: 35px;
 	margin-bottom: 5px;
 	border-radius: 100px;
-	box-shadow: 1px 1px 10px lightslategrey;
+	box-shadow: 1px 1px 3px lightslategrey;
 }
 .jumbotron h1 {
 	color: white;
