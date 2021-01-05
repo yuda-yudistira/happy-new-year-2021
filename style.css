@@ -20,11 +20,12 @@
 /* jumbotron */
 .jumbotron {
 	background-image: url("img/dave-hoefler.jpg");
-	background-size: 1400px 800px;
 	background-attachment: fixed;
-	margin-bottom: -30px;
+	margin-bottom: 0px;
 	overflow: hidden;
 	height: 650px;
+	background-size: 800px 600px;
+	background-position: -150px 0;
 }
 .jumbotron img {
 	height: 300px;
@@ -47,7 +48,7 @@
 /* sambutan */
 .sambutan {
 	background-color: #fef;
-	margin-top: -45px;
+	/*margin-top: -45px;*/
 	text-transform: uppercase;
 }
 .sambutan span {
@@ -56,6 +57,13 @@
 }
 .sambutan .img-thumbnail {
 	margin-top: 20px;
+	opacity: 0;
+	transition: 0.8s;
+	transform: translate(0, -30px);
+}
+.sambutan .img-thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0, 0);
 }
 
 
@@ -209,6 +217,10 @@ section {
 @media (min-width: 992px) {
 	.navbar .nav-link {
 		text-transform: uppercase;
+	}
+	.jumbotron {
+		background-size: 1400px 800px;
+		background-position: 0 0;
 	}
 	.sambutan {
 		background-image: linear-gradient(to bottom, indianred, skyblue);
