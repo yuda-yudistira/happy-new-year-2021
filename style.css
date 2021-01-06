@@ -173,6 +173,7 @@
 }
 .beruntung .btn {
 	color: white;
+	text-transform: uppercase;
 }
 .beruntung label {
 	color: darkblue;
@@ -191,6 +192,12 @@ footer {
 footer p {
 	margin: 5px 0px;
 	color: white;
+}
+footer .bi-heart-fill {
+	color: deeppink;
+}
+footer .bi-bell-fill {
+	color: snow;
 }
 
 

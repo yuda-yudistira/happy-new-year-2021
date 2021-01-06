@@ -25,22 +25,22 @@
 
     <title>Happy New Year 2021</title>
   </head>
-  <body class="home">
+  <body id="home">
 
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container kotak">
-        <a class="navbar-brand" href="#home">Yudistira Yuda</a>
+        <a class="navbar-brand page-scroll" href="#home">Yudistira Yuda</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#sambutan">Sambutan<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#ucapan">Ucapan</a>
-            <a class="nav-item nav-link" href="#harapan">Harapan</a>
-            <a class="nav-item nav-link disabled" href="#hadiah">Hadiah</a>
-            <a class="nav-item nav-link " href="#beruntung">Keberuntungan</a>
+            <a class="nav-item nav-link page-scroll" href="#sambutan">Sambutan<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link page-scroll" href="#ucapan">Ucapan</a>
+            <a class="nav-item nav-link page-scroll" href="#harapan">Harapan</a>
+            <a class="nav-item nav-link page-scroll disabled" href="#hadiah">Hadiah</a>
+            <a class="nav-item nav-link page-scroll" href="#beruntung">Keberuntungan</a>
           </div>
         </div>
       </div>
@@ -209,7 +209,12 @@
                 <textarea class="form-control" id="permohonan" placeholder="silahkan masukkan permohonan anda, hanya anda yang dapat mengabulkannya"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-warning">Kirim permohonan!</button>
+              <button type="submit" class="btn btn-warning">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bounding-box" viewBox="0 0 16 16">
+                <path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/>
+              </svg>
+               Kirim permohonan!
+              </button>
 
             </form>
           </div>
@@ -223,10 +228,19 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md text-center">
-            <p>PERHATIN : website masih dalam pengembangan. website dibuat dalam 6 hari. waktu pengerjaan 3 jam per hari, pengerjaan seluruhnya 18 jam selama 6 hari. pembaharuan terakhir 2 januari 2021.</p>
+            <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+            </svg> 
+            PERHATIAN : website masih dalam pengembangan. website dibuat dalam 6 hari. waktu pengerjaan 3 jam per hari, pengerjaan seluruhnya 18 jam selama 6 hari. pembaharuan terakhir 2 januari 2021.
+            </p>
             <!-- perubahan kedua -->
             <p>Peringatan* untuk melihat rangkaian foto yang benar gunakan komputer desktop atau laptop.</p>
-            <p class="text-center">&copy; copyright 2021 | Build with love by Yuda</p>
+            <p class="text-center">&copy; copyright 2021 | Build with 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+             by Yuda</p>
           </div>
         </div>
       </div>
